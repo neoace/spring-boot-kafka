@@ -1,0 +1,15 @@
+spring:
+  kafka:
+    bootstrap-servers: 192.168.5.41:9092,192.168.5.41:9093,192.168.5.41:9094
+    consumer:
+      auto-offset-reset: earliest
+      group-id: demo
+#      value-deserializer: org.apache.kafka.common.serialization.IntegerDeserializer
+#    producer:
+#      value-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+#      key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+
+
+#kafka:
+#  topic:
+#    boot: boot.t
